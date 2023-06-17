@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #c2ecf1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,17 +14,21 @@ body {
 }
 
 .container {
-    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
 .container h2 {
     display: inline-block;
-    text-align: start;
+    text-align: center;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
 }
@@ -32,7 +36,7 @@ body {
 .container label {
     display: inline-block;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .container input[type="text"],
@@ -46,7 +50,7 @@ body {
 }
 
 .icons{
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-around;
 }
@@ -54,10 +58,14 @@ body {
 .icons img{
     width: 30px;
 }
+a{
+    text-decoration: none;
+    font-size: 12px;
+}
 
 .container input[type="submit"] {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin-top: 5px;
     background-color: #4caf50;
     color: #fff;
@@ -94,3 +102,14 @@ body {
     width: 40px;
     transition: 1s;
 }
+
+.container input[type="submit"] {
+    font-size: 18px; 
+  }
+  
+
+a:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  
