@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/log.css">
+    <title>Página de Login</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="processar_login.php" method="post">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <div class="check">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Lembrar de mim</label>
+            </div>
+
+            <div class="icons">
+            <a href="#"><img src="img/google.png"></a>
+            <a href="#"><img src="img/facebook.png"></a>
+            <a href="#"><img src="img/github.png"></a>
+            </div>
+
+           <a href="ini.html"> <input type="submit" value="Entrar"></a>
+
+         <div class="forgot-container">
+            <a href="#" class="forgot">Esqueci minha senha</a>
+            <a href="#" class="register">Registre-se</a>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
