@@ -5,13 +5,16 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
     background-color: #c2ecf1;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
 
 .container {
     display: flex;
@@ -31,6 +34,8 @@ body {
     text-align: center;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
 }
 
 .container label {
@@ -96,11 +101,13 @@ a{
     border-bottom: 1px solid black;
     font-size: 14px;
     transition: 1s;
+    transform: scale(1);
 }
 
 .icons img:hover{
     width: 40px;
     transition: 1s;
+    transform: scale(1);
 }
 
 .container input[type="submit"] {
