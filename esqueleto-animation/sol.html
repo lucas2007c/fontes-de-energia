@@ -5,23 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar</title>
-    <link rel="stylesheet" href="css/sol.css">
+    <link rel="stylesheet" href="css/hid.css">
+    <script src="https://kit.fontawesome.com/29c8e69a6a.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
     <header>
-        <h1>Energia solar</h1>
+        <div class="container-header">
+            <div class="logo">
+                <h2>Fontes de Energia</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="log.html">Login</a></li>
+                    <li><a href="nss.html">Objetivo</a></li>
+                    <li><a href="qm.html">Quem somos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
 
+        <h1>Energia solar</h1>
+        <div class="container">
+            <img src="img/sol2.jpeg" class="left">
+            </div>
         <p>A energia solar é uma forma de energia renovável que vem do sol. A luz do sol é convertida em eletricidade
             através de painéis solares, que são compostos de células fotovoltaicas. Estas células capturam a luz do sol
             e convertem-na em eletricidade que pode ser usada para alimentar casas, empresas e até mesmo cidades
             inteiras.</p>
-        <div class="container"></div>
-        <img src="img/sol2.jpeg" class="left">
-        </div>
+
         <p>A energia solar é uma fonte de energia limpa e sustentável, que não emite gases de efeito estufa ou poluentes
             nocivos para a atmosfera. Ao contrário dos combustíveis fósseis, que são finitos e não renováveis, a energia
             solar é infinita e não esgota recursos naturais. Além disso, a energia solar é cada vez mais acessível, com
@@ -46,5 +62,59 @@
 
 
         <br>
-        <p style="text-align: right;"><a href="renovaveis.html">Voltar a página principal</a></p>
+        <a href="renovaveis.html"> <button class="voltar">Voltar</button></a>
     </main>
+</body>
+
+<footer>
+    <div class="contanier-footer">
+        <div class="row-footer">
+
+            <!--coluna1-->
+            <div class="footer-col">
+                <h4>Sobre nós</h4>
+                <ul>
+                    <li><a href="qm.html">Quem somos</a></li>
+                    <li><a href="#">Nossos serviços</a></li>
+                    <li><a href="#">Politica de privacidade</a></li>
+                </ul>
+            </div>
+            <!--fim coluna1-->
+
+
+            <!--coluna2-->
+            <div class="footer-col">
+                <h4>Obter ajuda</h4>
+                <ul>
+                    <li><a href="#">Contato</a></li>
+
+                </ul>
+            </div>
+            <!--fim coluna2-->
+
+            <!--coluna4-->
+            <div class="footer-col">
+                <h4>Inscreva-se</h4>
+                <div class="form-insc">
+                    <form>
+                        <input type="email" placeholder="Digite o seu email" required>
+
+                        <button>Inscreva-se</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <!--fim coluna4-->
+            <div class="footer-col">
+                <h4>redes sociais</h4>
+                <div class="rede-sociais">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
