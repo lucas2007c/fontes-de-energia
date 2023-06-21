@@ -67,15 +67,15 @@ p {
 }
 
 a {
-    padding: 5px;
-
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    color: #6a5acd;
+    font-weight: bold;
     text-decoration: none;
-
-    color: #000000;
-    text-align: center;
-    border-radius: 10px;
-
-
 }
 
 footer {
@@ -86,11 +86,11 @@ footer {
     margin-top: 2em;
 }
 
-a {
+/* a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-}
+} */
 
 @keyframes topdown {
     0% {
