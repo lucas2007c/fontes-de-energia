@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     background-color: #c2ecf1;
     /* display: block;
     justify-content: center;
@@ -14,11 +15,10 @@ body {
     min-height: 100vh; */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
-
 .container {
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 102px;
+    margin-bottom: 102px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,8 +27,8 @@ body {
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .container h2 {
@@ -36,7 +36,6 @@ body {
     text-align: center;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
-    font-family: 'Nunito', sans-serif;
     font-weight: 500;
 }
 
@@ -67,7 +66,7 @@ body {
 }
 a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .container input[type="submit"] {
@@ -77,7 +76,7 @@ a{
     background-color: #4caf50;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 2px;
     cursor: pointer;
 }
 
@@ -89,7 +88,8 @@ a{
 .register{
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .forgot-container{
@@ -121,4 +121,155 @@ a:focus {
     text-decoration: none;
     outline: none;
   }
+  footer {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(55, 181, 219), #3b4d9e);
+    padding: 50px 0;
+    flex-shrink: 0;
+    align-items: center;
+  }
   
+  .contanier-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+  }
+  
+  .row-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    padding: 0 15px;
+    width: 25%;
+  }
+  
+  .footer-col h4 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+  }
+  
+  .footer-col ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-col ul li a {
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #6e6c6c;
+    padding-left: 10px;
+  }
+  
+  .footer-col .rede-sociais a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all 0.8s ease;
+    margin: 5px 5px;
+  }
+  
+  .footer-col .rede-sociais a:hover {
+    color: navy;
+    background-color: white;
+  }
+  
+  .footer-col .form-insc input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    background-color: rgb(151, 196, 224);
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .footer-col .form-insc button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    color: #6a5acd;
+    font-weight: 500;
+  }
+  
+  header {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(55, 181, 219), #3b4d9e);
+    padding: 20px 0;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  
+  .container-header {
+    max-width: 1300px;
+    padding: 0 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+  
+  .logo h2 {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  @media(max-width: 850px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px
+    }
+  }
+  
+  @media(max-width: 600px){
+    .footer-col{
+        width: 100%;
+    }
+  }
