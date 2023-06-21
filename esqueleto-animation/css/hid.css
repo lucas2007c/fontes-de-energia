@@ -47,12 +47,12 @@ p {
 a {
     padding: 5px;
 
-text-decoration: none;
-    
+    text-decoration: none;
+
     color: #000000;
     text-align: center;
     border-radius: 10px;
- 
+
 }
 
 footer {
@@ -62,25 +62,28 @@ footer {
     padding: 1em;
     margin-top: 2em;
 }
-.container {
-   overflow: auto;
-   } 
 
-    .left { 
+.container {
+    overflow: auto;
+}
+
+.left {
     float: left;
     margin-right: 20px;
-    }
+}
 
-    .right {
-        padding-top: 20px;
+.right {
+    padding-top: 20px;
     float: right;
     margin-left: 20px;
-    }
+}
+
 a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
+
 @keyframes topdown {
     0% {
         opacity: 0;

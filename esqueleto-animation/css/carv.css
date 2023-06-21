@@ -3,23 +3,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: #c2ecf1;
-  
-  
-}    
-header 
-{
-background-color: #56c2dd;
-color: #fff;
-padding: 1em;
-text-align: center;
+
+
+}
+
+header {
+    background-color: #56c2dd;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
 
 
 }
 
 img {
-display: block;
-margin: 0 auto;
-border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
     width: 300px;
     height: 200px;
     border: 1px solid #faa331c7;
@@ -28,64 +28,65 @@ border-radius: 30px;
 }
 
 main {
-padding: 2em;
-max-width: 800px;
-margin: 0 auto;
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
 
 }
 
 h1 {
-text-align: center;
-font-size: 2em;
-margin-bottom: 1em;
-animation: topdown 1s;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    animation: topdown 1s;
 
 }
 
 p {
-text-align: justify;
-font-size: 1.3em;
-line-height: 1.5;
-margin-bottom: 1.5em;
-  animation: topdown 1s;
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    animation: topdown 1s;
 
 }
-.container {
-   overflow: auto;
-   } 
 
-    .right { 
+.container {
+    overflow: auto;
+}
+
+.right {
     float: left;
     margin-right: 20px;
-    }
+}
 
-    .left {
+.left {
     float: right;
     margin-left: 20px;
-    }
+}
 
 a {
-padding: 5px;
+    padding: 5px;
 
-text-decoration: none;
-    
+    text-decoration: none;
+
     color: #000000;
     text-align: center;
     border-radius: 10px;
-    
+
 }
 
 
 footer {
-background-color: #000000;
-color: #fff;
-text-align: center;
-padding: 1em;
-margin-top: 2em;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
 }
-    
 
-  @keyframes topdown {
+
+@keyframes topdown {
     0% {
         opacity: 0;
         transform: translateX(30px);

@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #c2ecf1;
-;
+    ;
 
 }
 
@@ -13,9 +13,9 @@ header {
     padding: 1em;
     text-align: center;
 
-  
 
-    
+
+
 }
 
 img {
@@ -28,20 +28,21 @@ img {
     border: 1px solid rgb(0, 54, 5);
     float: right;
     animation: topdown 1s;
-    }
-    .container {
-   overflow: auto;
-   } 
+}
 
-    .left { 
+.container {
+    overflow: auto;
+}
+
+.left {
     float: left;
     margin-right: 20px;
-    }
+}
 
-    .right {
+.right {
     float: right;
     margin-left: 20px;
-    }
+}
 
 main {
     padding: 2em;
@@ -68,13 +69,13 @@ p {
 a {
     padding: 5px;
 
-text-decoration: none;
-    
+    text-decoration: none;
+
     color: #000000;
     text-align: center;
     border-radius: 10px;
-   
-    
+
+
 }
 
 footer {
@@ -84,20 +85,21 @@ footer {
     padding: 1em;
     margin-top: 2em;
 }
+
 a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
 
-  @keyframes topdown {
-0% {
-opacity: 0;
-transform: translateX(30px);
-}
+@keyframes topdown {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
 
-100% {
-opacity: 1;
-transform: translateX(0);
-}
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
