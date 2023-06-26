@@ -9,6 +9,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     background-color: #c2ecf1;
+    animation: topdown 1s;
     /* display: block;
     justify-content: center;
     align-items: center;
@@ -123,7 +124,7 @@ a:focus {
   }
   footer {
     width: 100%;
-    background-image: linear-gradient(to right, rgb(55, 181, 219), #3b4d9e);
+    background-color: #3b4d9e;
     padding: 50px 0;
     flex-shrink: 0;
     align-items: center;
@@ -216,7 +217,7 @@ a:focus {
   
   header {
     width: 100%;
-    background-image: linear-gradient(to right, rgb(55, 181, 219), #3b4d9e);
+    background-color:#3b4d9e;
     padding: 20px 0;
     flex-shrink: 0;
     align-items: center;
@@ -271,5 +272,16 @@ a:focus {
   @media(max-width: 600px){
     .footer-col{
         width: 100%;
+    }
+  }
+  @keyframes topdown {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
     }
   }

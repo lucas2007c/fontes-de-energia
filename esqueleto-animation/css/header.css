@@ -2,7 +2,7 @@
 
 header {
     width: 100%;
-    background-image: linear-gradient(to right, rgb(55, 181, 219), #3b4d9e);
+    background-image: #3b4d9e;
     padding: 20px 0;
     flex-shrink: 0;
     align-items: center;
