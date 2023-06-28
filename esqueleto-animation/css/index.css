@@ -74,8 +74,12 @@ p {
   font-size: 18px;
   margin-bottom: 10px;
   padding-top: 30px;
+  transition: 0.5s;
 }
 
+.item a:hover{
+  font-size: 20px;
+}
 
 footer {
   width: 100%;
@@ -103,7 +107,7 @@ footer {
 
 .footer-col h4 {
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 20px;
   font-weight: 800;
   text-transform: uppercase;
