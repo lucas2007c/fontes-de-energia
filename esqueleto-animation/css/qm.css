@@ -3,6 +3,7 @@
 
 main{
     max-width: 1155px;
+    display: block;
 }
 
 iframe{
@@ -32,3 +33,19 @@ iframe{
     font-size: 18px;
 }
 
+@media(max-width: 600px){
+    main{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .info{
+        margin-left: 20%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .name{
+        width: 50% ;
+    }
+}
