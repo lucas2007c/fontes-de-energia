@@ -70,6 +70,10 @@ a{
     font-size: 14px;
 }
 
+a:hover{
+  cursor: pointer;
+}
+
 .container input[type="submit"] {
     width: 100%;
     padding: 15px;
